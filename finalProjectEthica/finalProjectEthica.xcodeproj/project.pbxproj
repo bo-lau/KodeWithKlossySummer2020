@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E98E6324A282DD00761C55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E98E6224A282DD00761C55 /* AppDelegate.swift */; };
+		84E98E6524A282DD00761C55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E98E6424A282DD00761C55 /* SceneDelegate.swift */; };
+		84E98E6724A282DD00761C55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E98E6624A282DD00761C55 /* ViewController.swift */; };
+		84E98E6A24A282DD00761C55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E98E6824A282DD00761C55 /* Main.storyboard */; };
+		84E98E6D24A282DD00761C55 /* finalProjectEthica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84E98E6B24A282DD00761C55 /* finalProjectEthica.xcdatamodeld */; };
+		84E98E6F24A282DF00761C55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E98E6E24A282DF00761C55 /* Assets.xcassets */; };
+		84E98E7224A282DF00761C55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E98E7024A282DF00761C55 /* LaunchScreen.storyboard */; };
+		84E98E7D24A282DF00761C55 /* finalProjectEthicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E98E7C24A282DF00761C55 /* finalProjectEthicaTests.swift */; };
+		84E98E8824A282DF00761C55 /* finalProjectEthicaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E98E8724A282DF00761C55 /* finalProjectEthicaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E98E7924A282DF00761C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E98E5724A282DD00761C55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E98E5E24A282DD00761C55;
+			remoteInfo = finalProjectEthica;
+		};
+		84E98E8424A282DF00761C55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E98E5724A282DD00761C55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84E98E5E24A282DD00761C55;
+			remoteInfo = finalProjectEthica;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84E98E5F24A282DD00761C55 /* finalProjectEthica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = finalProjectEthica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E98E6224A282DD00761C55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84E98E6424A282DD00761C55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84E98E6624A282DD00761C55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84E98E6924A282DD00761C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84E98E6C24A282DD00761C55 /* finalProjectEthica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = finalProjectEthica.xcdatamodel; sourceTree = "<group>"; };
+		84E98E6E24A282DF00761C55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E98E7124A282DF00761C55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84E98E7324A282DF00761C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E98E7824A282DF00761C55 /* finalProjectEthicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalProjectEthicaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E98E7C24A282DF00761C55 /* finalProjectEthicaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectEthicaTests.swift; sourceTree = "<group>"; };
+		84E98E7E24A282DF00761C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E98E8324A282DF00761C55 /* finalProjectEthicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = finalProjectEthicaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E98E8724A282DF00761C55 /* finalProjectEthicaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = finalProjectEthicaUITests.swift; sourceTree = "<group>"; };
+		84E98E8924A282DF00761C55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E98E5C24A282DD00761C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E98E7524A282DF00761C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E98E8024A282DF00761C55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E98E5624A282DD00761C55 = {
+			isa = PBXGroup;
+			children = (
+				84E98E6124A282DD00761C55 /* finalProjectEthica */,
+				84E98E7B24A282DF00761C55 /* finalProjectEthicaTests */,
+				84E98E8624A282DF00761C55 /* finalProjectEthicaUITests */,
+				84E98E6024A282DD00761C55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E98E6024A282DD00761C55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E98E5F24A282DD00761C55 /* finalProjectEthica.app */,
+				84E98E7824A282DF00761C55 /* finalProjectEthicaTests.xctest */,
+				84E98E8324A282DF00761C55 /* finalProjectEthicaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E98E6124A282DD00761C55 /* finalProjectEthica */ = {
+			isa = PBXGroup;
+			children = (
+				84E98E6224A282DD00761C55 /* AppDelegate.swift */,
+				84E98E6424A282DD00761C55 /* SceneDelegate.swift */,
+				84E98E6624A282DD00761C55 /* ViewController.swift */,
+				84E98E6824A282DD00761C55 /* Main.storyboard */,
+				84E98E6E24A282DF00761C55 /* Assets.xcassets */,
+				84E98E7024A282DF00761C55 /* LaunchScreen.storyboard */,
+				84E98E7324A282DF00761C55 /* Info.plist */,
+				84E98E6B24A282DD00761C55 /* finalProjectEthica.xcdatamodeld */,
+			);
+			path = finalProjectEthica;
+			sourceTree = "<group>";
+		};
+		84E98E7B24A282DF00761C55 /* finalProjectEthicaTests */ = {
+			isa = PBXGroup;
+			children = (
+				84E98E7C24A282DF00761C55 /* finalProjectEthicaTests.swift */,
+				84E98E7E24A282DF00761C55 /* Info.plist */,
+			);
+			path = finalProjectEthicaTests;
+			sourceTree = "<group>";
+		};
+		84E98E8624A282DF00761C55 /* finalProjectEthicaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84E98E8724A282DF00761C55 /* finalProjectEthicaUITests.swift */,
+				84E98E8924A282DF00761C55 /* Info.plist */,
+			);
+			path = finalProjectEthicaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E98E5E24A282DD00761C55 /* finalProjectEthica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E98E8C24A282DF00761C55 /* Build configuration list for PBXNativeTarget "finalProjectEthica" */;
+			buildPhases = (
+				84E98E5B24A282DD00761C55 /* Sources */,
+				84E98E5C24A282DD00761C55 /* Frameworks */,
+				84E98E5D24A282DD00761C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = finalProjectEthica;
+			productName = finalProjectEthica;
+			productReference = 84E98E5F24A282DD00761C55 /* finalProjectEthica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84E98E7724A282DF00761C55 /* finalProjectEthicaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E98E8F24A282DF00761C55 /* Build configuration list for PBXNativeTarget "finalProjectEthicaTests" */;
+			buildPhases = (
+				84E98E7424A282DF00761C55 /* Sources */,
+				84E98E7524A282DF00761C55 /* Frameworks */,
+				84E98E7624A282DF00761C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E98E7A24A282DF00761C55 /* PBXTargetDependency */,
+			);
+			name = finalProjectEthicaTests;
+			productName = finalProjectEthicaTests;
+			productReference = 84E98E7824A282DF00761C55 /* finalProjectEthicaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84E98E8224A282DF00761C55 /* finalProjectEthicaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E98E9224A282DF00761C55 /* Build configuration list for PBXNativeTarget "finalProjectEthicaUITests" */;
+			buildPhases = (
+				84E98E7F24A282DF00761C55 /* Sources */,
+				84E98E8024A282DF00761C55 /* Frameworks */,
+				84E98E8124A282DF00761C55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84E98E8524A282DF00761C55 /* PBXTargetDependency */,
+			);
+			name = finalProjectEthicaUITests;
+			productName = finalProjectEthicaUITests;
+			productReference = 84E98E8324A282DF00761C55 /* finalProjectEthicaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E98E5724A282DD00761C55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84E98E5E24A282DD00761C55 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					84E98E7724A282DF00761C55 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 84E98E5E24A282DD00761C55;
+					};
+					84E98E8224A282DF00761C55 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 84E98E5E24A282DD00761C55;
+					};
+				};
+			};
+			buildConfigurationList = 84E98E5A24A282DD00761C55 /* Build configuration list for PBXProject "finalProjectEthica" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E98E5624A282DD00761C55;
+			productRefGroup = 84E98E6024A282DD00761C55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E98E5E24A282DD00761C55 /* finalProjectEthica */,
+				84E98E7724A282DF00761C55 /* finalProjectEthicaTests */,
+				84E98E8224A282DF00761C55 /* finalProjectEthicaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E98E5D24A282DD00761C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E98E7224A282DF00761C55 /* LaunchScreen.storyboard in Resources */,
+				84E98E6F24A282DF00761C55 /* Assets.xcassets in Resources */,
+				84E98E6A24A282DD00761C55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E98E7624A282DF00761C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E98E8124A282DF00761C55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E98E5B24A282DD00761C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E98E6724A282DD00761C55 /* ViewController.swift in Sources */,
+				84E98E6324A282DD00761C55 /* AppDelegate.swift in Sources */,
+				84E98E6D24A282DD00761C55 /* finalProjectEthica.xcdatamodeld in Sources */,
+				84E98E6524A282DD00761C55 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E98E7424A282DF00761C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E98E7D24A282DF00761C55 /* finalProjectEthicaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84E98E7F24A282DF00761C55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E98E8824A282DF00761C55 /* finalProjectEthicaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84E98E7A24A282DF00761C55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E98E5E24A282DD00761C55 /* finalProjectEthica */;
+			targetProxy = 84E98E7924A282DF00761C55 /* PBXContainerItemProxy */;
+		};
+		84E98E8524A282DF00761C55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84E98E5E24A282DD00761C55 /* finalProjectEthica */;
+			targetProxy = 84E98E8424A282DF00761C55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84E98E6824A282DD00761C55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E98E6924A282DD00761C55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84E98E7024A282DF00761C55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E98E7124A282DF00761C55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E98E8A24A282DF00761C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84E98E8B24A282DF00761C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E98E8D24A282DF00761C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A46X5PCYG5;
+				INFOPLIST_FILE = finalProjectEthica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kayley.finalProjectEthica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E98E8E24A282DF00761C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A46X5PCYG5;
+				INFOPLIST_FILE = finalProjectEthica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kayley.finalProjectEthica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84E98E9024A282DF00761C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A46X5PCYG5;
+				INFOPLIST_FILE = finalProjectEthicaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kayley.finalProjectEthicaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/finalProjectEthica.app/finalProjectEthica";
+			};
+			name = Debug;
+		};
+		84E98E9124A282DF00761C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A46X5PCYG5;
+				INFOPLIST_FILE = finalProjectEthicaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kayley.finalProjectEthicaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/finalProjectEthica.app/finalProjectEthica";
+			};
+			name = Release;
+		};
+		84E98E9324A282DF00761C55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A46X5PCYG5;
+				INFOPLIST_FILE = finalProjectEthicaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kayley.finalProjectEthicaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = finalProjectEthica;
+			};
+			name = Debug;
+		};
+		84E98E9424A282DF00761C55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A46X5PCYG5;
+				INFOPLIST_FILE = finalProjectEthicaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Kayley.finalProjectEthicaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = finalProjectEthica;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E98E5A24A282DD00761C55 /* Build configuration list for PBXProject "finalProjectEthica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E98E8A24A282DF00761C55 /* Debug */,
+				84E98E8B24A282DF00761C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E98E8C24A282DF00761C55 /* Build configuration list for PBXNativeTarget "finalProjectEthica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E98E8D24A282DF00761C55 /* Debug */,
+				84E98E8E24A282DF00761C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E98E8F24A282DF00761C55 /* Build configuration list for PBXNativeTarget "finalProjectEthicaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E98E9024A282DF00761C55 /* Debug */,
+				84E98E9124A282DF00761C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E98E9224A282DF00761C55 /* Build configuration list for PBXNativeTarget "finalProjectEthicaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E98E9324A282DF00761C55 /* Debug */,
+				84E98E9424A282DF00761C55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84E98E6B24A282DD00761C55 /* finalProjectEthica.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84E98E6C24A282DD00761C55 /* finalProjectEthica.xcdatamodel */,
+			);
+			currentVersion = 84E98E6C24A282DD00761C55 /* finalProjectEthica.xcdatamodel */;
+			path = finalProjectEthica.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84E98E5724A282DD00761C55 /* Project object */;
+}

@@ -16,6 +16,12 @@
 		8421D2DD249BECDB006557EF /* miniProject2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421D2DC249BECDB006557EF /* miniProject2Tests.swift */; };
 		8421D2E8249BECDB006557EF /* miniProject2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8421D2E7249BECDB006557EF /* miniProject2UITests.swift */; };
 		8421D2F6249BF408006557EF /* starbucks in Resources */ = {isa = PBXBuildFile; fileRef = 8421D2F5249BF408006557EF /* starbucks */; };
+		84298B29249D05CF008F265C /* questionNumber1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84298B28249D05CF008F265C /* questionNumber1ViewController.swift */; };
+		84298B2A249D05CF008F265C /* questionNumber1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84298B28249D05CF008F265C /* questionNumber1ViewController.swift */; };
+		84298B2B249D05CF008F265C /* questionNumber1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84298B28249D05CF008F265C /* questionNumber1ViewController.swift */; };
+		84298B2D249D0633008F265C /* questionNumber2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84298B2C249D0633008F265C /* questionNumber2.swift */; };
+		84298B2E249D0633008F265C /* questionNumber2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84298B2C249D0633008F265C /* questionNumber2.swift */; };
+		84298B2F249D0633008F265C /* questionNumber2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84298B2C249D0633008F265C /* questionNumber2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,8 @@
 		8421D2E7249BECDB006557EF /* miniProject2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miniProject2UITests.swift; sourceTree = "<group>"; };
 		8421D2E9249BECDB006557EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8421D2F5249BF408006557EF /* starbucks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = starbucks; path = ../../../../Downloads/starbucks; sourceTree = "<group>"; };
+		84298B28249D05CF008F265C /* questionNumber1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionNumber1ViewController.swift; sourceTree = "<group>"; };
+		84298B2C249D0633008F265C /* questionNumber2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionNumber2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,8 @@
 				8421D2CE249BECDA006557EF /* Assets.xcassets */,
 				8421D2D0249BECDA006557EF /* LaunchScreen.storyboard */,
 				8421D2D3249BECDA006557EF /* Info.plist */,
+				84298B28249D05CF008F265C /* questionNumber1ViewController.swift */,
+				84298B2C249D0633008F265C /* questionNumber2.swift */,
 			);
 			path = miniProject2;
 			sourceTree = "<group>";
@@ -266,6 +276,8 @@
 				8421D2CA249BECD9006557EF /* ViewController.swift in Sources */,
 				8421D2C6249BECD9006557EF /* AppDelegate.swift in Sources */,
 				8421D2C8249BECD9006557EF /* SceneDelegate.swift in Sources */,
+				84298B29249D05CF008F265C /* questionNumber1ViewController.swift in Sources */,
+				84298B2D249D0633008F265C /* questionNumber2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84298B2E249D0633008F265C /* questionNumber2.swift in Sources */,
 				8421D2DD249BECDB006557EF /* miniProject2Tests.swift in Sources */,
+				84298B2A249D05CF008F265C /* questionNumber1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +295,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84298B2F249D0633008F265C /* questionNumber2.swift in Sources */,
 				8421D2E8249BECDB006557EF /* miniProject2UITests.swift in Sources */,
+				84298B2B249D05CF008F265C /* questionNumber1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
